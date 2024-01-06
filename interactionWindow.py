@@ -45,7 +45,7 @@ class interactionWindow(tempWindow):                                 # Create a 
         self.label.setFont(font)                    # Set the font of the label using the previously defined QFont object
         self.label.setStyleSheet("color: white;")   # Set the text color of the label to white
 
-        self.directions = QLabel (f"This is a database for UNI DZN. Clarify how you will be interacting with the system by clicking a button below.\n Update: Allows you to change entries in Database.\n Analysis: Allows you to specify what data you want to see from database.\n Entry: Allows you to enter new records into the database or create entirely new tables.\n")  
+        self.directions = QLabel (f"You will be interacting with the system by clicking a button below.\n Update: Allows you to change entries in Database.\n Analysis: Allows you to specify what data you want to see from database.\n Entry: Allows you to enter new records into the database or create entirely new tables.\n")  
         font.setPointSize(8)                                 # Set the font size to 8
         self.directions.setFont(font)                        # Set the font of the label using the modified QFont object
         self.directions.setStyleSheet("color: gray;")        # Set the text color of the label to gray
